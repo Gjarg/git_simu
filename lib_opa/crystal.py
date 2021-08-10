@@ -7,6 +7,3 @@ class Crystal:
         self.theta = theta
         self.phi = phi
         self.plan = plan
-
-
-
