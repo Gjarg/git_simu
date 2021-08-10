@@ -244,6 +244,6 @@ def get_indices_qpm(OPA, crystal):
         n=n_p, omega_center=OPA.SYSTEM['PumpBeam'].wc, omega_range=OPA.SYSTEM['OpaFramework'].w)
     print(betap[0:15])
 
-
+##
 def get_group_velocity(OPA):
     crystal = get_material(OPA.SYSTEM['OpaCrystal'].name)
